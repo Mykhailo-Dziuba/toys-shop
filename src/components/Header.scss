@@ -1,0 +1,37 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  background-color: rgb(255, 91, 255);
+  border-radius: 20px 20px 0px 0px;
+}
+.header-left {
+  display: flex;
+  align-items: center;
+}
+
+.header-right {
+  span {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  li {
+    cursor: pointer;
+    margin-right: 20px;
+    margin-top: 20px;
+    img {
+      margin-right: 10px;
+    }
+  }
+  display: flex;
+}
+
+.header-info {
+  h1 {
+    color: white;
+  }
+  p {
+    color: white;
+  }
+}

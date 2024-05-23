@@ -1,0 +1,29 @@
+.wrap {
+  max-width: 1080px;
+  margin: 0 auto;
+  background-color: rgb(240, 240, 240);
+  border-radius: 20px;
+}
+.main-content {
+  display: flex;
+  flex-wrap: wrap;
+}
+.main {
+  h2 {
+    color: rgb(58, 58, 58);
+    margin-bottom: 30px;
+  }
+  padding: 20px;
+}
+.main-input {
+  display: flex;
+  justify-content: space-between;
+  input {
+    width: 400px;
+    height: 36px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    text-align: center;
+  }
+}
